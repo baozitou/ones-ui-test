@@ -1,0 +1,10 @@
+.vscode
+*.pyc
+pyui
+.DS_Store
+.idea
+
+logs/
+test_reports/
+screenshots/
+tools/drivers/

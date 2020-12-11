@@ -1,0 +1,27 @@
+version: "2"
+
+networks:
+  private:
+    driver: bridge
+
+services:
+  hub:
+    image: webselenium/hub
+    ports:
+      - 4444:4444
+    networks:
+      - private
+  chrome:
+    image: webselenium/node-chrome
+    ports:
+      - 5900:5900
+    links:
+      - hub
+    depends_on:
+      - hub
+    # 注意这一点，如果不配置这些环境变量会导致node无法找到hub服务
+    environment:
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+    networks:
+      - private

@@ -1,0 +1,30 @@
+[
+  {
+    "domain": ".dev.ones.ai",
+    "expirationDate": 1879913769.238257,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "lt",
+    "path": "/",
+    "sameSite": "strict",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "mhAfles6kzgfhFscpNtEMARSp5vLPEC0cuu7ILoQEohWgyeuS3NwbGVMNiOyRelZ",
+    "id": 38
+  },
+  {
+    "domain": ".dev.ones.ai",
+    "expirationDate": 1879913769.238196,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "uid",
+    "path": "/",
+    "sameSite": "strict",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "CqDMKwcn",
+    "id": 37
+  }
+]

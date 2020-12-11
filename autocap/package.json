@@ -1,0 +1,46 @@
+{
+  "name": "@ones-ai/e2e-autocap",
+  "description": "using BackstopJS to automatically generate ONES product urls and start visual match testing",
+  "version": "0.1.0-demo-4",
+  "main": "index.js",
+  "author": "terryoy",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "ones",
+      "email": "npm@ones.ai",
+      "web": "ones.ai"
+    }
+  ],
+  "scripts": {
+    "autocap": "./cli/index.js"
+  },
+  "bin": {
+    "autocap": "./cli/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@ones-ai/components": "^8.67.5-advance.3",
+    "axios": "0.16",
+    "backstopjs": "^4.1.12",
+    "chalk": "^2.4.2",
+    "cookie": "^0.4.0",
+    "fs-extra": "^8.1.0",
+    "lodash-es": "^4.17.15",
+    "minimist": "^1.2.0",
+    "url-join": "^4.0.1"
+  },
+  "peerDependenceis": {
+    "backstopjs": "^4.1.12"
+  }
+}
